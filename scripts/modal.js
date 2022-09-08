@@ -14,8 +14,8 @@ $(document).ready(function () {
         'Enterprise Integration Services (EIS) aims at creating a scalable solution for for facilitating data accessibility to end users by building a data ingestion mechanism of data obtained via APIs into AWS S3 in near real time.'
     },
     userManagement: {
-      title: 'ABC Television Group',
-      tag: 'Ad sales project',
+      title: 'Ad-Sales',
+      tag: 'Advertisement analysis for television group',
       detail:
         'Ad Sales project helped ABC group to generate revenue via advertisement by facilitating a data ingestion mechanism by various sources using apache airflow and then modelling this data in snowflake using SQL scripts.'
     },
