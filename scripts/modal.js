@@ -6,7 +6,7 @@ $(document).ready(function () {
       tag: "Teradata to cloud migration",
       detail:
         "The Project aims at migrating on-premise teradata applications to Snowflake cloud. A python framwork was build to facilitate this automation of data staging and loading via scheduled batch jobs using automic scheduler.",
-      bullets: [],
+      bullets: [1,2,3],
     },
     crspng: {
       title: "EIS - Insurance",
@@ -20,7 +20,7 @@ $(document).ready(function () {
       tag: "Advertisement analysis for television group",
       detail:
         "Ad Sales project helped ABC group to generate revenue via advertisement by facilitating a data ingestion mechanism by various sources using apache airflow and then modelling this data in snowflake using SQL scripts.",
-      bullets: [],
+      bullets: ["hello", "1"],
     },
   };
 
@@ -111,6 +111,7 @@ $(document).ready(function () {
     $("#modal .detail").text(modalText[id].detail);
     $("#modal .tag").text(modalText[id].tag);
     let bulletList = $("#modal .bullets");
+    bulletList.empty();
     modalText[id].bullets.forEach(function (item) {
       bulletList.append("<li>" + item + "</li>");
     });
